@@ -1,0 +1,13 @@
+# Ambiente virtual (.venv)
+.venv/
+
+# Diretórios do projeto
+tests/
+db/repositories
+
+# Testes
+.pytest_cache/
+pytest.ini
+
+# Cache
+__pycache__
