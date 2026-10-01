@@ -1,7 +1,6 @@
 import time
+from capture.exception import LinkNotUpError
 
-class LinkNotUpError(Exception):
-    pass
 
 def read_sysfs(interface, filename):
     path = "/sys/class/net/" + interface + "/" + filename

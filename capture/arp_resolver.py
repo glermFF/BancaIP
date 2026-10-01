@@ -1,9 +1,5 @@
 from scapy.all import Ether, ARP, srp
-
-
-class DeviceNotRespondingError(Exception):
-    pass
-
+from capture.exception import DeviceNotRespondingError
 
 class ArpResolver:
     def __init__(self, interface):
