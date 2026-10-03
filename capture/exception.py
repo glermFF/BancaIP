@@ -4,3 +4,6 @@ class LinkNotUpError(Exception):
 
 class DeviceNotRespondingError(Exception):
     pass
+
+class ThroughputTestFailedError(Exception):
+    pass
